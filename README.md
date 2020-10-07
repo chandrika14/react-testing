@@ -1,3 +1,3 @@
 
-## Testing in React
+## Testing in React using Jest & Enzyme
 
