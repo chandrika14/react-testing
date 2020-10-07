@@ -1,6 +1,5 @@
 import React from 'react';
 
-const commentBox = () => {
+export default () => {
   return <div>Inside Comment Box</div>
 }
-export default commentBox;

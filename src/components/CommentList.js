@@ -1,6 +1,5 @@
 import React from 'react';
 
-const commentList = () => {
+export default () => {
   return <div>Inside Comment List</div>
 }
-export default commentList;
