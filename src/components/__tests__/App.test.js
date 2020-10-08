@@ -9,6 +9,9 @@ let wrapped;
 beforeEach(() => {
   wrapped = shallow(<App />);
 });
+afterEach(() => {
+  wrapped.unmount();
+})
 it('should render the commentBox', () => {
   expect(wrapped.find(CommentBox).length).toEqual(1);
 });
